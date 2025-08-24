@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Game of Thrones</title>
+  <link rel="stylesheet" href="css/estiloprincipal.css">
+  <style>
+    body {
+      background: #181818;
+      color: #e7e7e7;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h1 {
+      font-family: Georgia, serif;
+      color: #d4af37;
+      font-size: 2.2rem;
+      margin-bottom: 18px;
+    }
+    form {
+      background: #222;
+      padding: 18px;
+      border-radius: 8px;
+      max-width: 350px;
+      margin: 30px auto;
+    }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-family: Georgia, serif;
+      color: #d4af37;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 6px;
+      margin-bottom: 14px;
+      border-radius: 4px;
+      border: 1px solid #bba76a;
+      background: #181818;
+      color: #e7e7e7;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    button {
+      background: #d4af37;
+      color: #222;
+      border: none;
+      padding: 8px 18px;
+      border-radius: 5px;
+      font-family: Georgia, serif;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s, color 0.3s;
+    }
+    button:hover {
+      background: #222;
+      color: #d4af37;
+    }
+    .mensaje-apoyo {
+      text-align: center;
+      margin: 24px auto 0 auto;
+      max-width: 400px;
+      color: #bba76a;
+      font-style: italic;
+      font-size: 1.05rem;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 16px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="capitulos.html">Capítulos</a></li>
+        <li><a href="personajes.html">Personajes Principales</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <h1>Contacto</h1>
+  </header>
+
+  <main>
+    <form>
+      <label for="nombre">Nombre</label>
+      <input id="nombre" name="nombre" type="text" required>
+
+      <label for="comentario">Comentario</label>
+      <textarea id="comentario" name="comentario" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <div class="mensaje-apoyo">
+      Los comentarios ayudan a mejorar la página y a que crezca con el apoyo de todos los fans. ¡Gracias por participar!
+    </div>
+  </main>
+
+  <footer>
+    <p>Derechos reservados</p>
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personajes Principales - Game of Thrones</title>
+  <link rel="stylesheet" href="css/estiloprincipal.css">
+  <style>
+    .nombre-personaje {
+      font-weight: bold;
+      color: #d4af37;
+    }
+    .apodo {
+      font-style: italic;
+      color: #bba76a;
+      margin-bottom: 6px;
+    }
+    .personaje {
+      margin-bottom: 32px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #333;
+    }
+    .indice-personajes {
+      margin: 16px 0 24px 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    .indice-personajes li a {
+      color: #d4af37;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .indice-personajes li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="capitulos.html">Capítulos</a></li>
+        <li><a href="personajes.html">Personajes Principales</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <h1>Personajes Principales</h1>
+  </header>
+
+  <main>
+    <p>A continuación se presentan algunos de los personajes más importantes de Game of Thrones:</p>
+
+    <ul class="indice-personajes">
+      <li><a href="#jon">Jon Snow</a></li>
+      <li><a href="#daenerys">Daenerys Targaryen</a></li>
+      <li><a href="#tyrion">Tyrion Lannister</a></li>
+    </ul>
+
+    <div class="personaje" id="jon">
+      <h2>Jon Snow</h2>
+      <p><span class="nombre-personaje">Jon Snow</span> es uno de los personajes principales de la serie. Es conocido por su sentido del honor y su valentía.</p>
+      <p class="apodo">"El bastardo de Invernalia"</p>
+  <img src="img/jon snow.png" alt="Jon Snow" class="img-capitulo">
+    </div>
+
+    <div class="personaje" id="daenerys">
+      <h2>Daenerys Targaryen</h2>
+      <p><span class="nombre-personaje">Daenerys</span> es la última sobreviviente de la dinastía Targaryen y busca recuperar el trono que le fue arrebatado a su familia.</p>
+      <p class="apodo">"La Madre de Dragones"</p>
+  <img src="img/daenerys_targaryen.jpg" alt="Daenerys Targaryen" class="img-capitulo">
+    </div>
+
+    <div class="personaje" id="tyrion">
+      <h2>Tyrion Lannister</h2>
+      <p><span class="nombre-personaje">Tyrion</span> es un personaje astuto e inteligente, a menudo subestimado por su familia debido a su estatura.</p>
+      <p class="apodo">"El Gnomo"</p>
+  <img src="img/tyrion_lannister.jpg" alt="Tyrion Lannister" class="img-capitulo">
+    </div>
+  </main>
+
+  <footer>
+    <p>Derechos reservados</p>
+
